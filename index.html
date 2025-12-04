@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Modern - AI Generated</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-follow"></div>
+    
+    <nav class="navbar">
+        <div class="logo">JD.</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Duwi Yuli Anis Saputri">Duwi Yuli Anis Saputri</h1>
+            <p class="typing-text"></p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">Contact Me</button>
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Anis is a third-semester student at IPB University, full of enthusiasm for developing her potential and
+committed to making a positive impact on her surroundings. She is driven to create real change with clear and
+well-planned goals, even before starting her studies at IPB. With solid project management skills and active
+participation in Student Activity Units, Anis demonstrates a strong commitment to consistently contributing
+and producing meaningful work. Through various campus activities, she continues to hone her leadership
+skills, which will become essential in her future service to the broader community.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-card">
+                    <h3 class="counter" data-target="2">0</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="counter" data-target="58">0</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="counter" data-target="2">0</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+    <div class="skill-icon">✍️</div>
+    <h3>Copywriting</h3>
+    <div class="skill-bar">
+        <div class="skill-progress" data-progress="90"></div>
+    </div>
+    <span class="skill-percent">90%</span>
+</div>
+
+<div class="skill-card">
+    <div class="skill-icon">📊</div>
+    <h3>Data Analysis</h3>
+    <div class="skill-bar">
+        <div class="skill-progress" data-progress="80"></div>
+    </div>
+    <span class="skill-percent">80%</span>
+</div>
+
+<div class="skill-card">
+    <div class="skill-icon">🧠</div>
+    <h3>Consultant</h3>
+    <div class="skill-bar">
+        <div class="skill-progress" data-progress="85"></div>
+    </div>
+    <span class="skill-percent">85%</span>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">📱</div>
+                <h3>Social Media App</h3>
+                <p>Interactive social networking application</p>
+                <div class="project-tags">
+                    <span>Instagram</span>
+                    <span>Line</span>
+                    <span>LinkedIn</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🌏</div>
+                <h3>Green Community Project</h3>
+                <p>An educational and environmental action platform that supports reforestation programs</p>
+                <div class="project-tags">
+                    <span>Web</span>
+                    <span>Community</span>
+                    <span>Circle</span>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div id="formStatus"></div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Duwi Yuli Anis Saputri for TTS 15</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
